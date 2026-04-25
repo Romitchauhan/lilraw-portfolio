@@ -595,80 +595,94 @@ footer {
   <!-- Tabs -->
   <div class="video-tabs fade-up">
     <button class="video-tab active" onclick="filterVideos('all', this)">All</button>
-    <button class="video-tab" onclick="filterVideos('running', this)">Running</button>
-    <button class="video-tab" onclick="filterVideos('bike', this)">Bike Delivery</button>
-    <button class="video-tab" onclick="filterVideos('motion', this)">Motion Graphics</button>
-    <button class="video-tab" onclick="filterVideos('hospitality', this)">Hospitality</button>
+    <button class="video-tab" onclick="filterVideos('running', this)">Tattoo & Travel</button>
     <button class="video-tab" onclick="filterVideos('clone', this)">Clone Video</button>
+    <button class="video-tab" onclick="filterVideos('motion', this)">Motion & Concert</button>
+    <button class="video-tab" onclick="filterVideos('hospitality', this)">Hospitality</button>
   </div>
 
   <!-- Video Cards -->
   <div class="video-grid" id="videoGrid">
 
-    <!-- Running video -->
-    <div class="video-card fade-up" data-cat="running" onclick="openVideo('https://www.youtube.com/embed?listType=user_uploads&list=romitchauhan22','Running Edit')">
+    <!-- Tattoo / Running -->
+    <div class="video-card fade-up" data-cat="running" onclick="openInsta('https://www.instagram.com/reel/DXEORVdIsGS/')">
       <div class="video-thumb">
-        <div class="video-thumb-placeholder">
+        <div class="video-thumb-placeholder" style="background:linear-gradient(135deg,#1a0a2e,#2d1b4e)">
           <div class="play-btn-overlay"></div>
-          <div class="video-thumb-label">Running Edit</div>
+          <div class="video-thumb-label">Tattoo Edit</div>
         </div>
       </div>
       <div class="video-info">
-        <div class="video-category">Running</div>
-        <div class="video-title">Cinematic Running Edit</div>
-        <div class="video-desc">High-energy running footage with cinematic color grade and dynamic cuts.</div>
+        <div class="video-category">Running · Tattoo</div>
+        <div class="video-title">Tattoo Cinematic Reel</div>
+        <div class="video-desc">Dark cinematic tattoo reel with moody color grade and dynamic cuts.</div>
       </div>
     </div>
 
-    <!-- Bike Delivery -->
-    <div class="video-card fade-up" data-cat="bike" onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ','Bike Delivery')">
+    <!-- Clone -->
+    <div class="video-card fade-up" data-cat="clone" onclick="openInsta('https://www.instagram.com/reel/DWf2XLzjPlc/')">
       <div class="video-thumb">
-        <div class="video-thumb-placeholder">
+        <div class="video-thumb-placeholder" style="background:linear-gradient(135deg,#0a1a2e,#0d2040)">
           <div class="play-btn-overlay"></div>
-          <div class="video-thumb-label">Bike Delivery</div>
+          <div class="video-thumb-label">Clone Effect</div>
         </div>
       </div>
       <div class="video-info">
-        <div class="video-category">Bike Delivery</div>
-        <div class="video-title">Delivery Motion Edit</div>
-        <div class="video-desc">Fast-paced delivery video with motion blur and speed ramp effects.</div>
+        <div class="video-category">Clone Video</div>
+        <div class="video-title">Multi-Clone Effect Edit</div>
+        <div class="video-desc">Seamless clone effect using masking and compositing techniques.</div>
       </div>
     </div>
 
-    <!-- Motion Graphics 1 -->
-    <div class="video-card fade-up" data-cat="motion" onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ','Motion Graphics')">
+    <!-- Overlay Effect / Motion -->
+    <div class="video-card fade-up" data-cat="motion" onclick="openInsta('https://www.instagram.com/reel/DWjX30bjl_q/')">
       <div class="video-thumb">
-        <div class="video-thumb-placeholder">
+        <div class="video-thumb-placeholder" style="background:linear-gradient(135deg,#0a2010,#0d3020)">
           <div class="play-btn-overlay"></div>
-          <div class="video-thumb-label">Motion Graphics</div>
-        </div>
-      </div>
-      <div class="video-info">
-        <div class="video-category">Motion Graphics</div>
-        <div class="video-title">Brand Animation Reel</div>
-        <div class="video-desc">Kinetic typography and logo animations with After Effects.</div>
-      </div>
-    </div>
-
-    <!-- Motion Graphics 2 -->
-    <div class="video-card fade-up" data-cat="motion" onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ','Motion VFX')">
-      <div class="video-thumb">
-        <div class="video-thumb-placeholder">
-          <div class="play-btn-overlay"></div>
-          <div class="video-thumb-label">Motion VFX</div>
+          <div class="video-thumb-label">Overlay Effect</div>
         </div>
       </div>
       <div class="video-info">
         <div class="video-category">Motion Graphics</div>
-        <div class="video-title">VFX Compositing</div>
-        <div class="video-desc">Advanced visual effects and compositing work for client projects.</div>
+        <div class="video-title">Overlay VFX Edit</div>
+        <div class="video-desc">Creative overlay effects and compositing with cinematic color.</div>
       </div>
     </div>
 
-    <!-- Hospitality -->
-    <div class="video-card fade-up" data-cat="hospitality" onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ','Hospitality Video')">
+    <!-- Concert / Motion -->
+    <div class="video-card fade-up" data-cat="motion" onclick="openInsta('https://www.instagram.com/reel/DR7oLQSDc9f/')">
       <div class="video-thumb">
-        <div class="video-thumb-placeholder">
+        <div class="video-thumb-placeholder" style="background:linear-gradient(135deg,#2e0a0a,#401010)">
+          <div class="play-btn-overlay"></div>
+          <div class="video-thumb-label">Concert Edit</div>
+        </div>
+      </div>
+      <div class="video-info">
+        <div class="video-category">Motion Graphics · Concert</div>
+        <div class="video-title">Concert Cinematic Edit</div>
+        <div class="video-desc">High-energy concert footage with dynamic cuts and motion effects.</div>
+      </div>
+    </div>
+
+    <!-- Traveling -->
+    <div class="video-card fade-up" data-cat="running" onclick="openInsta('https://www.instagram.com/reel/DOQeZ3CjXMq/')">
+      <div class="video-thumb">
+        <div class="video-thumb-placeholder" style="background:linear-gradient(135deg,#0a1e2e,#102840)">
+          <div class="play-btn-overlay"></div>
+          <div class="video-thumb-label">Travel Reel</div>
+        </div>
+      </div>
+      <div class="video-info">
+        <div class="video-category">Traveling</div>
+        <div class="video-title">Cinematic Travel Reel</div>
+        <div class="video-desc">Stunning travel footage with smooth transitions and aerial vibes.</div>
+      </div>
+    </div>
+
+    <!-- Hospitality 1 -->
+    <div class="video-card fade-up" data-cat="hospitality" onclick="openInsta('https://www.instagram.com/reel/DW_agmdiM6k/')">
+      <div class="video-thumb">
+        <div class="video-thumb-placeholder" style="background:linear-gradient(135deg,#1e1400,#2e2000)">
           <div class="play-btn-overlay"></div>
           <div class="video-thumb-label">Hospitality</div>
         </div>
@@ -680,18 +694,33 @@ footer {
       </div>
     </div>
 
-    <!-- Clone Video -->
-    <div class="video-card fade-up" data-cat="clone" onclick="openVideo('https://www.youtube.com/embed/dQw4w9WgXcQ','Clone Video')">
+    <!-- Hospitality 2 -->
+    <div class="video-card fade-up" data-cat="hospitality" onclick="openInsta('https://www.instagram.com/reel/DWRAvUBiPAd/')">
       <div class="video-thumb">
-        <div class="video-thumb-placeholder">
+        <div class="video-thumb-placeholder" style="background:linear-gradient(135deg,#1a1200,#2a1e00)">
           <div class="play-btn-overlay"></div>
-          <div class="video-thumb-label">Clone Effect</div>
+          <div class="video-thumb-label">Hospitality 2</div>
         </div>
       </div>
       <div class="video-info">
-        <div class="video-category">Clone Video</div>
-        <div class="video-title">Multi-Clone Effect Edit</div>
-        <div class="video-desc">Seamless clone effect using masking and compositing techniques.</div>
+        <div class="video-category">Hospitality</div>
+        <div class="video-title">Luxury Brand Film</div>
+        <div class="video-desc">Premium hospitality brand video with elegant visual storytelling.</div>
+      </div>
+    </div>
+
+    <!-- Hospitality 3 -->
+    <div class="video-card fade-up" data-cat="hospitality" onclick="openInsta('https://www.instagram.com/reel/DVgEqNEiF8f/')">
+      <div class="video-thumb">
+        <div class="video-thumb-placeholder" style="background:linear-gradient(135deg,#0e1800,#182400)">
+          <div class="play-btn-overlay"></div>
+          <div class="video-thumb-label">Hospitality 3</div>
+        </div>
+      </div>
+      <div class="video-info">
+        <div class="video-category">Hospitality</div>
+        <div class="video-title">Resort Cinematic Film</div>
+        <div class="video-desc">Cinematic resort promo with lush color and immersive sound design.</div>
       </div>
     </div>
 
@@ -1076,26 +1105,9 @@ function filterVideos(cat, btn) {
   });
 }
 
-// VIDEO MODAL
-function openVideo(url, title) {
-  const modal = document.getElementById('videoModal');
-  const frame = document.getElementById('modalFrame');
-  frame.src = url + (url.includes('?') ? '&' : '?') + 'autoplay=1';
-  modal.classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
-function closeVideo(e) {
-  if (e.target === document.getElementById('videoModal')) closeVideoBtn();
-}
-function closeVideoBtn() {
-  document.getElementById('videoModal').classList.remove('open');
-  document.getElementById('modalFrame').src = '';
-  document.body.style.overflow = '';
-}
-function closeShowreel(e) {
-  if (e.target === document.getElementById('showreelModal')) {
-    document.getElementById('showreelModal').classList.remove('open');
-  }
+// OPEN INSTAGRAM REEL
+function openInsta(url) {
+  window.open(url, '_blank');
 }
 
 // CONTACT FORM
